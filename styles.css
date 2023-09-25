@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&family=Roboto&display=swap');
+body{
+    margin: 0%;
+    font-family: Poopins;
+}
+.btn {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  }
+  .ubtn{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 180px;
+  height: 40px;
+ padding: 5px;
+ font-weight: 700;
+  }
+  button.btn:hover{
+    opacity:0.8;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+  }
+  footer{
+    background-color:#F5F5F5;
+    margin-top: 100%;
+    
+   
+  }
+  .last{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  
+  .end{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  .icon{
+    display: flex;
+    justify-content: space-between;
+  }
+  p:hover{
+    text-decoration: underline;
+  }
+  p.pa:hover{
+    text-decoration: none;
+  }
